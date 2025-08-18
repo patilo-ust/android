@@ -9,7 +9,7 @@ String nombre = "Juan Pérez";
 
 
 
-
+//Entrada de datos por teclado
 import java.util.Scanner;
 
 public class EjemploInput {
@@ -33,6 +33,7 @@ public class EjemploInput {
 }
 
 
+// uso de IF - ELSE - ELSE IF
 int calificacion = 85;
 
 if (calificacion >= 90) {
@@ -47,6 +48,8 @@ if (calificacion >= 90) {
 int contador = 1;
 int numero = 5;
 
+
+// Uso de WHILE
 System.out.println("Tabla de multiplicar del 5:");
 while (contador <= 10) {
     System.out.println(numero + " x " + contador + " = " + (numero * contador));
@@ -54,6 +57,21 @@ while (contador <= 10) {
 }
 
 
+// Uso de FOR
+// Declarar y inicializar un arreglo de tipo String
+String[] nombres = {"Ana", "Luis", "Carlos", "Sofía"};
+
+// Bucle for para recorrer el arreglo
+// La variable 'i' actúa como el índice del arreglo
+for (int i = 0; i < nombres.length; i++) {
+    // nombres.length nos da el tamaño del arreglo (4 en este caso)
+    // Usamos el índice 'i' para acceder a cada elemento del arreglo
+    System.out.println("El nombre en la posición " + i + " es: " + nombres[i]);
+}
+
+
+
+//DICCIONARIOS hashMAp
 import java.util.HashMap;
 import java.util.Map;
 
@@ -74,6 +92,8 @@ for (String pais : capitales.keySet()) {
 }
 
 
+
+// Clases, Metodos y Constructores
 // Definición de la clase 'Coche'
 class Coche {
     // Atributos (variables de instancia)
